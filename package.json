@@ -1,26 +1,27 @@
 {
-  "name": "prod",
+  "name": "platform",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmattapp/prod.git"
+    "url": "git+https://github.com/rmattapp/platform.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmattapp/prod/issues"
+    "url": "https://github.com/rmattapp/platform/issues"
   },
-  "homepage": "https://github.com/rmattapp/prod#readme",
-  "dependencies": {
-    "next": "^10.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+  "homepage": "https://github.com/rmattapp/platform#readme"
 }
